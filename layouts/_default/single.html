@@ -26,6 +26,14 @@
           {{ end }}
         </div>
       </div>
+      <script src="https://utteranc.es/client.js"
+          repo="zaorangyang/zaorangyang.github.io"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+      </script>
+
       <!-- Valine 评论系统 -->
       {{ if .Site.Params.valine.enable }}
       {{ partial "comments.html" . }}
