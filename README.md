@@ -1,6 +1,6 @@
 # Hugo Theme Zozo
 
-[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/imzeuk/hugo-theme-zozo/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE)
 
 A simple and beautiful theme for Hugo
 
@@ -18,7 +18,7 @@ A simple and beautiful theme for Hugo
 + **Fancybox**
 + **GoogleAnalytics**
 
-[Demo](https://demo.zeuk.me) | [中文说明](./README-zh.md)
+[Demo](https://zozo.varkai.com) | [中文说明](./README-zh.md)
 
 ## Sceenshots
 
@@ -27,7 +27,7 @@ A simple and beautiful theme for Hugo
 ## Installation
 
 ```bash
-$ git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
+$ git clone https://github.com/varkai/hugo-theme-zozo themes/zozo
 ```
 
 **Important**: Take a look inside the [`exampleSite`](./exampleSite) folder of this theme. You'll find a file called [`config.toml`](./exampleSite/config.toml). To use it, copy the [`config.toml`](./exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change it.
@@ -40,20 +40,12 @@ There is an example site with config file and markdown files in `exampleSite` di
 
 Use the about page to introduce yourself to your visitors. You can customize the content as you like in the `/content/about/index.md`.
 
-## Logo
-
-In order to customize the logo and favicon, you need to place all the following files in the static folder at the root of your site, which will overwrite those files in the `themes/zozo/static/images/` folder.
-
-## Hide Pages
-
-Pages can be hidden and don't appear in the post list on the homepage if you add the variable `hidden = true` to the frontmatter. This allows you to link from elsewhere, i.e. just the menu.
-
 ## Shortcodes
 
 This theme provides `img` shortcodes.
 
 ```markdown
-{{< img src="path/to/xxx.png" title="xxx" >}}
+{{< img src="path/to/xxx.png" >}}
 ```
 
 ## MathJax
@@ -86,7 +78,7 @@ Now enter `localhost:1313` in the address bar of your browser.
 
 ## License
 
-Released under the [MIT](https://github.com/imzeuk/hugo-theme-zozo/blob/master/LICENSE) License.
+Released under the [MIT](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE) License.
 
 ## Acknowledgements
 

@@ -1,10 +1,10 @@
 # Hugo Theme Zozo
 
-[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/imzeuk/hugo-theme-zozo/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE)
 
 > 该主题移植自 [Aragaki](https://github.com/PCDotFan/Aragaki)，结构样式参考自 [菩提树下](https://blog.caicai.me/)，部分功能参考自 [Even](https://github.com/olOwOlo/hugo-theme-even)
 
-**在线预览**：[Demo](https://demo.zeuk.me)
+**在线预览**：[Demo](https://zozo.varkai.com)
 
 ## 截图
 
@@ -15,7 +15,7 @@
 首先进入 hugo 的站点目录运行下面的命令：
 
 ```bash
-$ git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
+$ git clone https://github.com/varkai/hugo-theme-zozo themes/zozo
 ```
 
 本主题提供了一个示例配置文件是 [`exampleSite`](./exampleSite) 目录里的 [`config.toml`](./exampleSite/config.toml) 文件。
@@ -32,22 +32,12 @@ $ git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
 
 使用关于页面，首先要在你的站点目录的 [`content`](./exampleSite/content/) 目录下创建一个 [`about`](./exampleSite/content/about/) 目录，然后再创建一个 [`index.md`](./exampleSite/content/about/index.md) 文件，最后编写该文件即可。
 
-## Logo
-
-你需要将 [`images`](./static/images/) 目录下的 `logo.svg`、`favicon.ico` 都替换为你自己的图像。
-
-## 隐藏页面
-
-如果你不想让一个页面出现在文章列表中，只需要在 markdown 文件的 `frontmatter` 中添加 `hidden: true` 即可。
-
-然后你可以在其他任何地方通过链接来引用该页面，如在菜单中放置一个链接。
-
 ## Shortcodes
 
 主题提供了 `img` shortcode.
 
 ```markdown
-{{< img src="path/to/xxx.png" title="xxx" >}}
+{{< img src="path/to/xxx.png" >}}
 ```
 
 ## Math 公式
@@ -79,7 +69,7 @@ $ hugo server
 
 ## License
 
-Released under the [MIT](https://github.com/imzeuk/hugo-theme-zozo/blob/master/LICENSE) License.
+Released under the [MIT](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE) License.
 
 ## 致谢
 
